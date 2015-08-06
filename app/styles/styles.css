@@ -1,0 +1,21 @@
+body {
+  width: 740px;
+  padding: 50px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  width: 180px;
+  height: 20px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+button#add {
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  background: #eee;
+}

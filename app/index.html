@@ -1,0 +1,26 @@
+<!doctype html>
+  <head>
+    <meta charset="8tf-8">
+    <title>Hash Table Visualizer</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  </head>
+  <body>  
+    <h1>Hash Table Visualizer</h1>
+    <div id="hashTable">
+      <form id="hashingForm" action="#">
+        <input type="text" id="key" />
+        <input type="text" id="value" />
+        <button id="add">Add</button>
+      </form>
+      <div id="tuples-container"></div>
+    </div>
+  </body>
+  <script src="lib/jquery.min.js"></script>
+  <script src="lib/underscore-min.js"></script>
+  <script src="lib/backbone-min.js"></script>
+  <script src="models/tuple.model.js"></script>
+  <script src="models/hashTable.model.js"></script>
+  <script src="views/tuple.view.js"></script>
+  <script src="views/hashTable.view.js"></script>
+  <script src="app.js"></script>
+</html>
